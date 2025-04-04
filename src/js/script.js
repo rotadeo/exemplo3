@@ -39,14 +39,28 @@ console.log(typeof ex5)
 let numFloat =123.456;
 console.log(numFloat.toString())
 
-//  STRING -> FLOAT
-let numString ="12.963"
+// STRING -> FLOAT
+let numString ="12.963";
 console.log(parseFloat(numString))
 
-//  INT -> STRING
-let numInt = 123456
+// INT -> STRING
+let numInt = 123456;
 console.log(numInt.toString())
 
 // STRING -> INT
-let numString1 = "128"
+let numString1 = "128";
 console.log(parseInt(numString1))
+
+// METODOS
+
+// METODO lenght - VERIFICA O TAMANHO DA STRING
+let frase = "O mundo da tecnologia";
+console.log(frase.length)
+
+// METODO IndexOf / lastIndexOf- RETORNA UM TRECHO DO SEU CODIGO
+let texto = "Programação Sustentável";
+console.log(texto.indexOf("ão"))
+
+// METODO skice - RETORNA PARTE DE UM TEXTO PASSANDO INIIO E O FINAL
+let info = "Programação de ponta";
+console.log(info.slice(15,20))

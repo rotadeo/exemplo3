@@ -171,12 +171,17 @@ do{
 
 //  JOGO DE ADIVINHAÇÃO
 // declarando variavel indefinida
-let = palpite;
+let palpite;
 const sorteio = Math.floor(Math.random() * 10) + 1;
 
 do{
     palpite = parseInt(prompt("Escolha um numero entre 1 e 10"))
 }while(palpite != sorteio)
 
-alert("Parabéns!!! Você ganhou o jogo", palpite)
+alert("Parabéns!!! Você ganhou o jogo", palpite)        // (`Parabéns Você Ganhou o jogo ${palpite}´)
 
+//  FUNÇÕES
+function saudacao(nome2){
+    console.log("Seja Bem-Vindo", nome2)
+}
+saudacao("Fiap")

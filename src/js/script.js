@@ -9,11 +9,11 @@ console.log(idade)
 const sobrenome = "Fiapinho";
 console.log(sobrenome)
 
-// undefined
+// undefined (declação de uma vaiavel indefinida)
 let exemplo;
 console.log(exemplo)
 
-// nula
+// nula (declaração de uma variavel nula)
 let exemplo1 =null
 console.log(exemplo1)
 
@@ -90,3 +90,41 @@ const f = 30;
 console.log(e == f);
 console.log(e === f);
 console.log(e != f); 
+
+// CONDICIONAL
+// IF
+if(true){
+    console.log("é verdadeiro")
+}
+
+let exemplo2 = 1;
+if(exemplo2 == 1){
+    console.log("está correta")
+}
+
+// IFF / ELSE
+let nome1 = "Fiap";
+if (nome1 == "Fiap"){
+    console.log("Nome correto")
+    // document.write("Nome certo")
+}
+else{
+    console.log("Nome errado")
+    // document.write("Nome errado")
+}
+
+// IF ENCADEADO OU ALINHADO
+let idade1 = 51;
+if (idade1 <= 14){
+    console.log("Não pode entar é menor")
+}
+else if (idade1 > 14 && idade1 <=18){
+    console.log("Pode entar e curtir")
+}
+else if (idade1 > 18 && idade1 <= 50){
+    console.log("Perigo seus pais estão na balada")
+}
+else{
+    console.log("Você deve ficar no sofa assistindo netflix")
+}
+

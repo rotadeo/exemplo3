@@ -129,15 +129,15 @@ else{
 }
 
 // SWITCH CASE (ESTRUTURA DE SELÇAO MULTIPLA / MATCH CASE)
-let time = "Santos"
+let time = "Santos";
 switch(time){   
-    case "Santos";
+    case "Santos":
         console.log("Melhor time")
         break;
-    case "São Paulo";
+    case "São Paulo":
         console.log("É tão ruim que não ganha em casa")
         break;
-    case "Palmeiras";
+    case "Palmeiras":
         console.log("Não tem muldial")
         break;
     default:
@@ -148,4 +148,26 @@ switch(time){
 let valor = 101;
 let resultado = valor == 100 ? "Valor Certo": "Valor Errado";
 console.log(resultado);
+
+//  ESTRUTURA DE REPETIÇÃO
+//  FOR
+for(let i = 0; i <= 10; i++){
+    console.log("o valor de I é", i)
+}
+
+// WHILE
+let r = 0;
+while(r < 10){
+    console.log("o valor de r é", r)
+    r++;
+}
+
+// DO WHILE
+let w = 0;
+do{
+    console.log("do while", w)
+    w++;
+}while(w <= 20)
+
+
 

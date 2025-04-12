@@ -128,3 +128,24 @@ else{
     console.log("Você deve ficar no sofa assistindo netflix")
 }
 
+// SWITCH CASE (ESTRUTURA DE SELÇAO MULTIPLA / MATCH CASE)
+let time = "Santos"
+switch(time){   
+    case "Santos";
+        console.log("Melhor time")
+        break;
+    case "São Paulo";
+        console.log("É tão ruim que não ganha em casa")
+        break;
+    case "Palmeiras";
+        console.log("Não tem muldial")
+        break;
+    default:
+        console.log("Nenhuma das opções Validas (Cortinas)")
+}
+
+//  TERNARIO
+let valor = 101;
+let resultado = valor == 100 ? "Valor Certo": "Valor Errado";
+console.log(resultado);
+
